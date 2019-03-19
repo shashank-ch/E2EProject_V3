@@ -38,7 +38,7 @@ public class HelpValidation extends Base_Main {
 
 
 	@Test
-	public void helpButton() throws InterruptedException
+	public void helpButtonValidation() throws InterruptedException
 	{
 		// TODO Auto-generated constructor stub
 		

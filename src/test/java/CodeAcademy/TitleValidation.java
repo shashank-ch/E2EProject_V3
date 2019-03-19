@@ -34,7 +34,7 @@ public class TitleValidation extends Base_Main {
 
 
 	@Test(dataProvider="getData")
-	public void homePage(String username, String password) throws InterruptedException
+	public void errorMessageValidation(String username, String password) throws InterruptedException
 	{
 		driver.get(url);//changed it from before test
 		LandingPage lp=new LandingPage(driver);
@@ -56,7 +56,7 @@ public class TitleValidation extends Base_Main {
 			//Assert.assertEquals(sp.wrongPwd().getText(), "ddWrong password. Try again or click Forgot password to reset it.", "Title validation failed");
 			//log.info("Title Validation is Successful");
 			
-			if((sp.wrongPwd().getText()).equalsIgnoreCase("ggWrong password. Try again or click Forgot password to reset it.")){
+			if((sp.wrongPwd().getText()).equalsIgnoreCase("Wrong password. Try again or click Forgot password to reset it.")){
 				
 				log.info("Title Validation is Successful");
 				Assert.assertTrue(true);

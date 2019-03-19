@@ -3,6 +3,7 @@
 <suite name="Suite">
 	<listeners>
 	<listener class-name="CodeAcademy.listeners"></listener>
+	<listener class-name="resources.ExtentReporterNG"></listener>
 	</listeners>
   <test name="Help Validation">
     <classes>

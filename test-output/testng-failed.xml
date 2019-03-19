@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="CodeAcademy.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
   <test thread-count="5" name="Error Message validation(failed)">
     <classes>
       <class name="CodeAcademy.TitleValidation">
         <methods>
-          <include name="homePage" invocation-numbers="0"/>
+          <include name="errorMessageValidation" invocation-numbers="0"/>
           <include name="browserSetup"/>
           <include name="closeBrowser"/>
         </methods>

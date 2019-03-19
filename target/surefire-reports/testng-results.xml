@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51755" started-at="2019-03-19T10:21:47Z" finished-at="2019-03-19T10:22:39Z">
+  <suite name="Suite" duration-ms="51392" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:55:39Z">
     <groups>
     </groups>
-    <test name="Help Validation" duration-ms="9941" started-at="2019-03-19T10:21:47Z" finished-at="2019-03-19T10:21:57Z">
+    <test name="Help Validation" duration-ms="9150" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:54:57Z">
       <class name="CodeAcademy.HelpValidation">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HelpValidation@3daa422a]" name="browserSetup" is-config="true" duration-ms="5343" started-at="2019-03-19T10:21:47Z" finished-at="2019-03-19T10:21:53Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="browserSetup" is-config="true" duration-ms="5265" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="helpButton()[pri:0, instance:CodeAcademy.HelpValidation@3daa422a]" name="helpButton" duration-ms="2263" started-at="2019-03-19T10:21:53Z" finished-at="2019-03-19T10:21:55Z">
+        <test-method status="PASS" signature="helpButtonValidation()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="helpButtonValidation" duration-ms="1540" started-at="2019-03-19T22:54:53Z" finished-at="2019-03-19T22:54:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- helpButton -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.HelpValidation@3daa422a]" name="closeBrowser" is-config="true" duration-ms="2318" started-at="2019-03-19T10:21:55Z" finished-at="2019-03-19T10:21:57Z">
+        </test-method> <!-- helpButtonValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="closeBrowser" is-config="true" duration-ms="2332" started-at="2019-03-19T22:54:54Z" finished-at="2019-03-19T22:54:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- CodeAcademy.HelpValidation -->
     </test> <!-- Help Validation -->
-    <test name="Error Message validation" duration-ms="15365" started-at="2019-03-19T10:21:57Z" finished-at="2019-03-19T10:22:13Z">
+    <test name="Error Message validation" duration-ms="14909" started-at="2019-03-19T22:54:57Z" finished-at="2019-03-19T22:55:12Z">
       <class name="CodeAcademy.TitleValidation">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.TitleValidation@55b7a4e0]" name="browserSetup" is-config="true" duration-ms="3348" started-at="2019-03-19T10:21:57Z" finished-at="2019-03-19T10:22:01Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="browserSetup" is-config="true" duration-ms="3332" started-at="2019-03-19T22:54:57Z" finished-at="2019-03-19T22:55:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="FAIL" signature="homePage(java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.TitleValidation@55b7a4e0]" name="homePage" duration-ms="9363" started-at="2019-03-19T10:22:01Z" data-provider="getData" finished-at="2019-03-19T10:22:10Z">
+        <test-method status="PASS" signature="errorMessageValidation(java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="errorMessageValidation" duration-ms="9235" started-at="2019-03-19T22:55:00Z" data-provider="getData" finished-at="2019-03-19T22:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -40,65 +40,22 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at CodeAcademy.TitleValidation.homePage(TitleValidation.java:68)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePage -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.TitleValidation@55b7a4e0]" name="closeBrowser" is-config="true" duration-ms="2328" started-at="2019-03-19T10:22:10Z" finished-at="2019-03-19T10:22:13Z">
+        </test-method> <!-- errorMessageValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="closeBrowser" is-config="true" duration-ms="2332" started-at="2019-03-19T22:55:09Z" finished-at="2019-03-19T22:55:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- CodeAcademy.TitleValidation -->
     </test> <!-- Error Message validation -->
-    <test name="Validating the home page" duration-ms="26389" started-at="2019-03-19T10:22:13Z" finished-at="2019-03-19T10:22:39Z">
+    <test name="Validating the home page" duration-ms="27293" started-at="2019-03-19T22:55:12Z" finished-at="2019-03-19T22:55:39Z">
       <class name="CodeAcademy.HomePage">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HomePage@43195e57]" name="browserSetup" is-config="true" duration-ms="3354" started-at="2019-03-19T10:22:13Z" finished-at="2019-03-19T10:22:16Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="browserSetup" is-config="true" duration-ms="3366" started-at="2019-03-19T22:55:12Z" finished-at="2019-03-19T22:55:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@43195e57]" name="basePageNavigation" duration-ms="10313" started-at="2019-03-19T10:22:16Z" data-provider="getData" finished-at="2019-03-19T10:22:26Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="basePageNavigation" duration-ms="11048" started-at="2019-03-19T22:55:15Z" data-provider="getData" finished-at="2019-03-19T22:55:26Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +76,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@43195e57]" name="basePageNavigation" duration-ms="10383" started-at="2019-03-19T10:22:26Z" data-provider="getData" finished-at="2019-03-19T10:22:37Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="basePageNavigation" duration-ms="10533" started-at="2019-03-19T22:55:26Z" data-provider="getData" finished-at="2019-03-19T22:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +97,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:CodeAcademy.HomePage@43195e57]" name="closebrowser" is-config="true" duration-ms="2339" started-at="2019-03-19T10:22:37Z" finished-at="2019-03-19T10:22:39Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="closebrowser" is-config="true" duration-ms="2336" started-at="2019-03-19T22:55:37Z" finished-at="2019-03-19T22:55:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

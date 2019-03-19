@@ -87,12 +87,14 @@
 	    <version>3.14.0</version>
 	</dependency>
   
-    <dependency>
+   	
+	 <dependency>
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
 	    <version>6.14.3</version>
 	    <scope>test</scope>
 	</dependency>
+<!-- changed the version from 6.14.3 to 6.8 as in sir's and removed the old one  -->
 
 	
 	  <dependency>
@@ -112,7 +114,24 @@
     <artifactId>commons-io</artifactId>
     <version>1.3.2</version>
 	</dependency>
-
+	
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>4.0.9</version>
+	</dependency>
+	<dependency>
+		<groupId>com.relevantcodes</groupId>
+		<artifactId>extentreports</artifactId>
+		<version>2.41.2</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.5</version>
+	</dependency>
+<!-- Added after checking a comment -->
 
   </dependencies>
 </project>
