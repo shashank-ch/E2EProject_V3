@@ -1,63 +1,63 @@
-21:22:16.599 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
-21:22:26.919 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
-21:22:37.302 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
-21:22:39.641 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
-08:43:19.877 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:43:22.704 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
-08:43:24.413 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
-08:43:26.739 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
-08:43:28.957 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:43:30.130 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
-08:43:39.322 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
-08:43:41.661 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
-08:43:43.879 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:43:45.055 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
-08:43:56.317 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
-08:44:07.136 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
-08:44:09.477 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
-08:57:14.744 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:57:17.096 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
-08:57:18.714 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
-08:57:21.036 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
-08:57:23.250 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:57:24.413 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
-08:57:33.738 [main] ERROR CodeAcademy.Base_Main - Title Validation Failed
-08:57:36.422 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
-08:57:38.632 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-08:57:39.796 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
-08:57:51.717 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
-08:58:01.803 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
-08:58:04.130 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
-09:11:35.066 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:11:37.437 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
-09:11:38.816 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
-09:11:41.137 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
-09:11:43.361 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:11:44.520 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
-09:11:53.811 [main] ERROR CodeAcademy.Base_Main - Title Validation Failed
-09:11:56.492 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
-09:11:58.702 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:11:59.857 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
-09:12:10.784 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
-09:12:21.123 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
-09:12:23.463 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
-09:16:00.682 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:16:02.968 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
-09:16:04.636 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
-09:16:06.980 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
-09:16:09.177 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:16:10.315 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
-09:16:19.758 [main] ERROR CodeAcademy.Base_Main - Title Validation Failed
-09:16:22.414 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
-09:16:24.617 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:16:25.760 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
-09:16:36.306 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
-09:16:46.785 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
-09:16:49.115 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
-09:44:32.830 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:44:35.216 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
-09:44:36.931 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
-09:44:39.263 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
-09:44:41.505 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
-09:44:42.689 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
-09:44:51.545 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
+09:44:53.871 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
+09:44:56.088 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:44:57.276 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
+09:45:08.632 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
+09:45:18.977 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
+09:45:21.322 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
+09:47:28.630 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:47:31.016 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
+09:47:32.805 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
+09:47:35.138 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
+09:47:37.348 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:47:38.519 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
+09:47:47.829 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
+09:47:50.158 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
+09:47:52.402 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:47:53.570 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
+09:48:03.888 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
+09:48:13.770 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
+09:48:16.096 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
+09:48:46.679 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:48:49.061 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
+09:48:50.834 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
+09:48:52.921 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
+09:48:55.133 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:48:56.294 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
+09:49:05.300 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
+09:49:07.657 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
+09:49:09.776 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:49:10.930 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
+09:49:21.466 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
+09:49:32.175 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
+09:49:34.511 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
+09:53:40.943 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:53:43.318 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
+09:53:45.086 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
+09:53:47.415 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
+09:53:49.544 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:53:50.718 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
+09:54:00.072 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
+09:54:02.418 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
+09:54:04.608 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:54:05.791 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
+09:54:16.722 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
+09:54:27.697 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
+09:54:30.021 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
+09:54:51.040 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:54:53.302 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
+09:54:54.855 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
+09:54:57.187 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
+09:54:59.393 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:55:00.559 [main] INFO  CodeAcademy.Base_Main - Title Validation is Open
+09:55:09.804 [main] INFO  CodeAcademy.Base_Main - Title Validation is Successful
+09:55:12.136 [main] INFO  CodeAcademy.Base_Main - Title Validation is Closed
+09:55:14.323 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+09:55:15.502 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Open
+09:55:26.560 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-1
+09:55:37.093 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is Successful for Trial-2
+09:55:39.429 [main] INFO  CodeAcademy.Base_Main - HomePage Validation is closed
+10:34:07.101 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open
+10:34:09.529 [main] INFO  CodeAcademy.Base_Main - Help Validation is Open
+10:34:11.258 [main] INFO  CodeAcademy.Base_Main - Help Validation is successful
+10:34:13.586 [main] INFO  CodeAcademy.Base_Main - Help Validation is closed
+10:34:15.791 [main] INFO  CodeAcademy.Base_Main - Chrome Browser is Open

@@ -92,9 +92,10 @@
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
 	    <version>6.14.3</version>
-	    <scope>test</scope>
+	    <scope>compile</scope>
+	    
 	</dependency>
-<!-- changed the version from 6.14.3 to 6.8 as in sir's and removed the old one  -->
+<!-- changed the version from 6.14.3 to 6.8 as in sir's and removed the old one  removed this <scope>test</scope> added compile  -->
 
 	
 	  <dependency>

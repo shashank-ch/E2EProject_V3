@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51392" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:55:39Z">
+  <suite name="Suite" duration-ms="52500" started-at="2019-03-19T23:37:10Z" finished-at="2019-03-19T23:38:02Z">
     <groups>
     </groups>
-    <test name="Help Validation" duration-ms="9150" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:54:57Z">
+    <test name="Help Validation" duration-ms="9595" started-at="2019-03-19T23:37:10Z" finished-at="2019-03-19T23:37:20Z">
       <class name="CodeAcademy.HelpValidation">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="browserSetup" is-config="true" duration-ms="5265" started-at="2019-03-19T22:54:48Z" finished-at="2019-03-19T22:54:53Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HelpValidation@243c4f91]" name="browserSetup" is-config="true" duration-ms="5564" started-at="2019-03-19T23:37:10Z" finished-at="2019-03-19T23:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="helpButtonValidation()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="helpButtonValidation" duration-ms="1540" started-at="2019-03-19T22:54:53Z" finished-at="2019-03-19T22:54:54Z">
+        <test-method status="PASS" signature="helpButtonValidation()[pri:0, instance:CodeAcademy.HelpValidation@243c4f91]" name="helpButtonValidation" duration-ms="1697" started-at="2019-03-19T23:37:16Z" finished-at="2019-03-19T23:37:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helpButtonValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.HelpValidation@61df66b6]" name="closeBrowser" is-config="true" duration-ms="2332" started-at="2019-03-19T22:54:54Z" finished-at="2019-03-19T22:54:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.HelpValidation@243c4f91]" name="closeBrowser" is-config="true" duration-ms="2318" started-at="2019-03-19T23:37:17Z" finished-at="2019-03-19T23:37:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- CodeAcademy.HelpValidation -->
     </test> <!-- Help Validation -->
-    <test name="Error Message validation" duration-ms="14909" started-at="2019-03-19T22:54:57Z" finished-at="2019-03-19T22:55:12Z">
+    <test name="Error Message validation" duration-ms="15704" started-at="2019-03-19T23:37:20Z" finished-at="2019-03-19T23:37:35Z">
       <class name="CodeAcademy.TitleValidation">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="browserSetup" is-config="true" duration-ms="3332" started-at="2019-03-19T22:54:57Z" finished-at="2019-03-19T22:55:00Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.TitleValidation@441772e]" name="browserSetup" is-config="true" duration-ms="3323" started-at="2019-03-19T23:37:20Z" finished-at="2019-03-19T23:37:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="errorMessageValidation(java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="errorMessageValidation" duration-ms="9235" started-at="2019-03-19T22:55:00Z" data-provider="getData" finished-at="2019-03-19T22:55:09Z">
+        <test-method status="PASS" signature="errorMessageValidation(java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.TitleValidation@441772e]" name="errorMessageValidation" duration-ms="10055" started-at="2019-03-19T23:37:23Z" data-provider="getData" finished-at="2019-03-19T23:37:33Z">
           <params>
             <param index="0">
               <value>
@@ -43,19 +43,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMessageValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.TitleValidation@1d9b7cce]" name="closeBrowser" is-config="true" duration-ms="2332" started-at="2019-03-19T22:55:09Z" finished-at="2019-03-19T22:55:12Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CodeAcademy.TitleValidation@441772e]" name="closeBrowser" is-config="true" duration-ms="2326" started-at="2019-03-19T23:37:33Z" finished-at="2019-03-19T23:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- CodeAcademy.TitleValidation -->
     </test> <!-- Error Message validation -->
-    <test name="Validating the home page" duration-ms="27293" started-at="2019-03-19T22:55:12Z" finished-at="2019-03-19T22:55:39Z">
+    <test name="Validating the home page" duration-ms="27171" started-at="2019-03-19T23:37:35Z" finished-at="2019-03-19T23:38:02Z">
       <class name="CodeAcademy.HomePage">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="browserSetup" is-config="true" duration-ms="3366" started-at="2019-03-19T22:55:12Z" finished-at="2019-03-19T22:55:15Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:CodeAcademy.HomePage@6c80d78a]" name="browserSetup" is-config="true" duration-ms="3385" started-at="2019-03-19T23:37:35Z" finished-at="2019-03-19T23:37:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="basePageNavigation" duration-ms="11048" started-at="2019-03-19T22:55:15Z" data-provider="getData" finished-at="2019-03-19T22:55:26Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@6c80d78a]" name="basePageNavigation" duration-ms="11199" started-at="2019-03-19T23:37:39Z" data-provider="getData" finished-at="2019-03-19T23:37:50Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="basePageNavigation" duration-ms="10533" started-at="2019-03-19T22:55:26Z" data-provider="getData" finished-at="2019-03-19T22:55:37Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CodeAcademy.HomePage@6c80d78a]" name="basePageNavigation" duration-ms="10260" started-at="2019-03-19T23:37:50Z" data-provider="getData" finished-at="2019-03-19T23:38:00Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:CodeAcademy.HomePage@1a451d4d]" name="closebrowser" is-config="true" duration-ms="2336" started-at="2019-03-19T22:55:37Z" finished-at="2019-03-19T22:55:39Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:CodeAcademy.HomePage@6c80d78a]" name="closebrowser" is-config="true" duration-ms="2327" started-at="2019-03-19T23:38:00Z" finished-at="2019-03-19T23:38:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
